@@ -1,3 +1,4 @@
+
 * {
   border: 1px solid black;
   box-sizing: border-box;
@@ -16,6 +17,7 @@ body {
   align-items: flex-end;
   justify-content: space-evenly;
 }
+
 .bb1 {
   width: 10%;
   height: 70%;
@@ -24,8 +26,8 @@ body {
   align-items: center;
   --building-color1: #aa80ff;
   --building-color2: #66cc99;
+  --building-color3: #cc6699;
 }
-
 .bb1a {
   width: 70%;
   height: 10%;
@@ -59,8 +61,11 @@ body {
 .bb3 {
   width: 10%;
   height: 55%;
+  background-color: var(--building-color3, pink);
 }
+
 .bb4 {
   width: 11%;
   height: 58%;
 }
+    
