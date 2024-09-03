@@ -15,13 +15,13 @@ body {
   margin: 0;
   overflow: hidden;
 }
-
 .background-buildings {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
+  
 }
 
 .bb1 {
@@ -73,11 +73,14 @@ body {
   height: 58%;
   background-color: var(--building-color4);
 }
+.background-buildings, .foreground-buildings{
+  position:absolute;
+  top:0;
+}
 .foreground-buildings {
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0;
+  
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
@@ -111,3 +114,4 @@ body {
   width: 9%;
   height: 38%;
 }
+    
